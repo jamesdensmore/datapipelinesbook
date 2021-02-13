@@ -1,0 +1,10 @@
+{
+  ingestion_jobid: "orders_postgres",
+  source_host: "my_host.com",
+  source_db: "ecommerce",
+  source_table: "orders",
+  ingestion_type: "full",
+  ingestion_frequency_minutes: "60",
+  source_owner: "dev-team@mycompany.com",
+  ingestion_owner: "data-eng@mycompany.com"
+};
